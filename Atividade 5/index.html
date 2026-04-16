@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Questionário de Pesquisa do Filme</h1>
+        
+        <form id="formulario">
+            <div class="form-group">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" placeholder="Digite sua idade" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sexo">Sexo</label>
+                <select id="sexo" required>
+                    <option value="">Selecione</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="opiniao">Opinião</label>
+                <select id="opiniao" required>
+                    <option value="">Selecione</option>
+                    <option value="OTIMO">Ótimo</option>
+                    <option value="BOM">Bom</option>
+                    <option value="REGULAR">Regular</option>
+                    <option value="PESSIMO">Péssimo</option>
+                </select>
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Enviar Resposta</button>
+                <button type="button" id="limpar">Limpar Dados</button>
+                <button type="button" id="automatico">Gerar 45 respostas</button>
+            </div>
+        </form>
+
+        <div id="estatisticas" class="estatisticas">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
