@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #f7f3e8, #e8f0f2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 480px;
+}
+
+h1, h2 {
+    margin-bottom: 12px;
+    color: #2f4f4f;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 12px;
+    background-color: #4f8f8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b7474;
+}
+
+button[type="reset"] {
+    background-color: #b3b3b3;
+}
+
+button[type="reset"]:hover {
+    background-color: #9a9a9a;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.radio-group input {
+    width: auto;
+}
+
