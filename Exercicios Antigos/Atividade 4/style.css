@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.opcs {
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.opc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opcs button {
+    padding: 0.8rem 1.2rem;
+    margin: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.opcImg {
+    width: 110px;
+    height: 100px;
+}
+.results {
+    text-align: center;
+    max-width: 420px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
